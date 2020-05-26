@@ -1,0 +1,59 @@
+main{ margin-top: 55px;
+    padding-bottom: 12px;
+}
+
+.navBarCustom{
+    position : absolute;
+    width : 100%;
+    z-index: 10;
+    text-align: center;
+    background: linear-gradient(262deg, #ff7854, #fd267d);
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.27);
+}
+.nav-size{
+    height: 55px;
+}
+
+.navbar-icon{
+        width: 50px;
+        height:50px;
+        margin-bottom: 6px;
+}
+
+.navbar-ic{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-tender{
+    opacity:0.9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.app-name{
+    color:white;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+
+.link-menu{
+   font-size: 1em;
+   color:brown;
+   font-weight: bold;
+}
+
+.link-menu:hover{
+    color: white !important;
+    opacity:0.9;
+}
+
+/*navbar little changes*/
+.fixed-top{ padding-bottom: 0px!important;}
+.navbar-toggler:hover, .navbar-toggler:focus { outline: 0;}
+span.navbar-toggler-icon:focus {outline: 0;}
+.navbar-light .navbar-nav .show > .nav-link, 
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .nav-link.active { color: #EC9993!important;}

@@ -1,0 +1,26 @@
+.chat-noMessages{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #FE5963; 
+    
+}
+.tenderLogo{
+    max-width: 35vw;
+    opacity: 0.5;
+
+}
+@media screen and (max-width: 900px ){
+    .chat-noMessages{
+        margin-bottom: 15vh;
+
+    }
+}

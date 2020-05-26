@@ -1,0 +1,21 @@
+.tenderUserMessage{
+    font-family: 'Montserrat', sans-serif;
+    color: 	#303030;
+    font-size: 16px;
+    overflow-wrap: break-word;
+    text-align: left;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    background-color: #FFAF87; 
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.103);
+}
+
+.tenderUserMessage-spaceBetween{
+    padding: 10px;
+}
+
+.tenderUserMessage-Row{
+    margin-bottom: 10px;
+
+}

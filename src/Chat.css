@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 95%;
+    width: 98%;
+}
+
+#root{
+    height: 98%;
+}
+.chat{
+display: flex;
+height: 100%;
+width: 100%;
+}
+
+.chat-contacts{
+    width: 30%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.chat-spaceForMessages{
+    width: 70%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: flex-end;
+}
+.chat-spaceForMessagesScroll{
+    overflow-y: scroll; /*hidden?*/
+    scroll-behavior: smooth;
+}
+
+.chat-chatForm {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 13%;
+    padding: 5px; 
+    margin-left: 15px;
+}
+
+.chat-textArea {
+    width: 85%; 
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.chat-sendButton {
+    width: 15%; 
+    padding: 15px 25px;
+    margin: 20px 5px;
+    align-items: flex-end;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FE5963;
+    outline: none;
+    box-shadow: 3px 3px rgba(0,0,0,.27);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: white;
+}
+
+@media screen and (max-width: 900px ) {
+    .chat-contacts {
+    display: none;  
+    }
+
+    .chat-spaceForMessages{
+        width: 100%;
+    }
+
+    body{
+        height: 90%;
+        width: 95%;
+    }
+
+    .chat-textArea {
+        width: 70%; 
+    }
+
+    .chat-sendButton {
+        width: 30%;
+    }
+
+    .chat-chatForm{
+        position: fixed;
+        bottom: 0;
+        margin-left: 0px;
+    }
+
+    .chat-spaceForMessagesScroll{
+        margin-bottom: 11vh;
+    }
+
+}
